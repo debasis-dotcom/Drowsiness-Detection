@@ -8,6 +8,10 @@ Here, each eye is represented by 16 (x, y)-coordinates, starting at the left-cor
 We have taken a threshold of 50 to detect if the eye is closed or not and this threshold will vary depending where we are deploying this model and needs to be adjusted accordingly.
 It checks 10 consecutive frames and if the area formed by those eyes landmarks is less than 0.5, then Alert is generated.
 
+## Mathematics
+The maths behind calculating the area,
+
+
 ## Applications 🎯
 - This model can be delpoyed in those vehicles where the drivers who tend to drive for a longer period of time may feel drowsy. As such incident may lead to accidents.
 - This model can also be used to detect those persons who are in charge of security of particular place or premises.
