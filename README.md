@@ -11,6 +11,7 @@ It checks 10 consecutive frames and if the area formed by those eyes landmarks i
 ## Mathematics
 We have used the famous shoelace formula to calculate the area formed by the eyes andmarks.
 The maths behind calculating the area has been shown below,
+
 ![](https://github.com/debasis-dotcom/Drowsiness-Detection/blob/main/ShoelaceFormula.PNG)
 
 ## Applications 🎯
