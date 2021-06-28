@@ -16,7 +16,10 @@ The maths behind calculating the area has been shown below,
 
 We have used this shoelace formula and implemented it by using numpy. The numpy code can be found below,
 
-EyeArea = 0.5*np.abs(np.dot(rEyeX,np.roll(rEyeY,1))-np.dot(rEyeY,np.roll(rEyeX,1)))
+EyeArea = 0.5*np.abs(np.dot(EyeX,np.roll(EyeY,1))-np.dot(EyeY,np.roll(EyeX,1)))
+where,
+      - EyeX is the x coordinate value of the landmarks.
+      - EyeY is the y coordinate value of the landmarks.
 
 ## Applications 🎯
 - This model can be delpoyed in those vehicles where the drivers who tend to drive for a longer period of time may feel drowsy. As such incident may lead to accidents.
