@@ -44,4 +44,6 @@ Or else if you are using pyCharm then you can directly add by going through its 
 
 Step 3: Run the program
 
+## Demo
+
 ![Demo](https://github.com/debasis-dotcom/Drowsiness-Detection/blob/main/SampleOutputVideo.gif)
