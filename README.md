@@ -14,6 +14,10 @@ The maths behind calculating the area has been shown below,
 
 ![](https://github.com/debasis-dotcom/Drowsiness-Detection/blob/main/ShoelaceFormula.PNG)
 
+We have used this shoelace formula and implemented it by using numpy. The numpy code can be found below,
+
+EyeArea = 0.5*np.abs(np.dot(rEyeX,np.roll(rEyeY,1))-np.dot(rEyeY,np.roll(rEyeX,1)))
+
 ## Applications 🎯
 - This model can be delpoyed in those vehicles where the drivers who tend to drive for a longer period of time may feel drowsy. As such incident may lead to accidents.
 - This model can also be used to detect those persons who are in charge of security of particular place or premises.
