@@ -20,7 +20,7 @@ It checks 10 consecutive frames and if the area formed by those eyes landmarks i
 ## How to use?
 Step 1: Clone this repository on your local computer
 
-git clone https://github.com/debasis-dotcom/Gesture-Volume-Control-by-using-OpenCV
+git clone https://github.com/debasis-dotcom/Drowsiness-Detection
 
 Step 2: Install all the requirements
 
