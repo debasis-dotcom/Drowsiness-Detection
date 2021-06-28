@@ -29,3 +29,5 @@ pip install opencv-python
 Or else if you are using pyCharm then you can directly add by going through its setting --> interpreter --> add
 
 Step 3: Run the program
+
+![Demo](https://github.com/debasis-dotcom/Drowsiness-Detection/blob/main/SampleOutputVideo.gif)
