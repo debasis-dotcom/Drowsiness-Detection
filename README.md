@@ -9,8 +9,9 @@ We have taken a threshold of 50 to detect if the eye is closed or not and this t
 It checks 10 consecutive frames and if the area formed by those eyes landmarks is less than 0.5, then Alert is generated.
 
 ## Mathematics
-The maths behind calculating the area,
-
+We have used the famous shoelace formula to calculate the area formed by the eyes andmarks.
+The maths behind calculating the area has been shown below,
+![](https://github.com/debasis-dotcom/Drowsiness-Detection/blob/main/ShoelaceFormula.PNG)
 
 ## Applications 🎯
 - This model can be delpoyed in those vehicles where the drivers who tend to drive for a longer period of time may feel drowsy. As such incident may lead to accidents.
